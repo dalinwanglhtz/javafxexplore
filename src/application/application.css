@@ -1,1 +1,25 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+#displayText {
+	-fx-font-size: 10px;
+	-fx-background-color: rgba(200, 255, 255, 0.8);
+	-fx-text-fill: green;
+	-fx-padding: 3 3 3 3;
+	-fx-font-weight: bold;
+}
+
+.button {
+	-fx-font-size: 10px;
+	-fx-background-color: rgba(200, 123, 255, 0.8);
+	-fx-text-fill: purple;
+	-fx-padding: 3 3 3 3;
+	-fx-font-weight: bold;
+}
+
+.button:hover {
+	-fx-background-color:rgb(0,128,128);
+}
+
+.button:pressed {
+	-fx-translate-y: 5px;
+	-fx-background-color: rgb(0,128,128);
+}

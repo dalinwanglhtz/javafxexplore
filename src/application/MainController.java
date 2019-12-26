@@ -15,4 +15,9 @@ public class MainController {
 		displayText.setText(pathVar);
 		displayText.setWrapText(true);
 	}
+	
+	@FXML
+	public void clearDisplayText(ActionEvent event) {
+		displayText.setText("");
+	}
 }
